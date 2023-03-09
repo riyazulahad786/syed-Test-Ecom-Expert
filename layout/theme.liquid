@@ -236,7 +236,11 @@
       document.documentElement.classList.add('shopify-design-mode');
     }
     </script>
-  </head>
+  
+<script id="docapp-volume-speedup">
+(() => { if (!document.documentElement.innerHTML.includes('\\/shop' + '\\/js' + '\\/shopdocs-volume-discounts.min.js') || window.shopdocsVolumeDiscountsAppLoaded) return; let script = document.createElement('script'); script.src = "https://d2e5xyzdl0rkli.cloudfront.net/shop/js/shopdocs-volume-discounts.min.js?shop=syedriyaz-test-ecomexperts.myshopify.com"; document.getElementById('docapp-volume-speedup').after(script); })();
+</script>
+</head>
 
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
